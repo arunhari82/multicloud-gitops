@@ -1,0 +1,20 @@
+---
+global:
+  sepsisdemo:
+    namespace: sepsis-demo
+  datacenter:
+    storageClassName: gp2
+    region: us-east-1
+
+database:
+  name: plsql_fhir_db
+  image: registry.redhat.io/rhel8/mariadb-103:latest
+
+plsql_fhir_db:
+  
+hapi_fhir:
+  hapi_psql_app_name: psql-fhir
+  hapi_psql_port: 5432
+  hapi_psql_user_name: fhir
+  hapi_psql_user_passwd: fhir
+  hapi_psql_db_name: fhir
