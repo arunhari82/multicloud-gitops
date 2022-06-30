@@ -7,7 +7,7 @@ global:
     region: us-east-1
 
 database:
-  name: plsql_fhir_db
+  name: plsql-fhir-db
   image: registry.redhat.io/rhel8/mariadb-103:latest
 
 plsql_fhir_db:
