@@ -17,7 +17,6 @@ clusterGroup:
       channel: stable
     serverlessoperator:
       name: serverless-operator
-      namespace: openshift-serverless
       channel: stable
 
   projects:
