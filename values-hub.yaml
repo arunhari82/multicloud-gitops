@@ -22,13 +22,18 @@ clusterGroup:
       name: rhsso-operator
       channel: stable
       namespace: sepsis-demo
-      
+
   projects:
   - hub
   - config-demo
   - sepsis-demo
 
   applications:
+    sepsisdemo:
+      name: sepsis-demo
+      namespace: sepsis-demo
+      project: sepsis-demo
+      path: charts/all/sepsis-demo
     acm:
       name: acm
       namespace: open-cluster-management
