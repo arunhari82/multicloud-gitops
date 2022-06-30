@@ -14,6 +14,10 @@ clusterGroup:
       name: amq-streams
       namespace: sepsis-demo
       channel: stable
+    serverlessoperator:
+      name: serverless-operator
+      namespace: sepsis-demo
+      channel: stable
 
   projects:
   - hub
