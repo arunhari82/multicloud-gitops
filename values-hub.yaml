@@ -16,7 +16,7 @@ clusterGroup:
       channel: stable
     serverlessoperator:
       name: serverless-operator
-      namespace: sepsis-demo
+      namespace: openshift-serverless
       channel: stable
 
   projects:
