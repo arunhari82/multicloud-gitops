@@ -18,7 +18,11 @@ clusterGroup:
     serverlessoperator:
       name: serverless-operator
       channel: stable
-
+    rhsso-operator:  
+      name: rhsso-operator
+      channel: stable
+      namespace: sepsis-demo
+      
   projects:
   - hub
   - config-demo
