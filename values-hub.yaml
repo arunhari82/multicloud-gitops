@@ -29,11 +29,12 @@ clusterGroup:
   - sepsis-demo
 
   applications:
-    sepsisdemo:
+    sepsisdemodb:
       name: sepsis-demo
       namespace: sepsis-demo
       project: sepsis-demo
-      path: charts/all/sepsis-demo
+      path: charts/all/sepsis-demo/database
+
     acm:
       name: acm
       namespace: open-cluster-management
