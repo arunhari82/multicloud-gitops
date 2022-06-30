@@ -10,10 +10,10 @@ clusterGroup:
 
 
   subscriptions:
-       - name: amq-streams
-         namespace: sepsis-demo
-         channel: stable
-         csv: amqstreams.v1.7.1
+    amqstreams:
+      name: amq-streams
+      namespace: sepsis-demo
+      channel: stable
 
   projects:
   - hub
