@@ -29,7 +29,7 @@ clusterGroup:
   - sepsis-demo
 
   applications:
-    sepsisdemodb:
+    sepsis-demo:
       name: sepsis-demo
       namespace: sepsis-demo
       project: sepsis-demo
