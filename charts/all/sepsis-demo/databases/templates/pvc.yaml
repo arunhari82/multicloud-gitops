@@ -10,6 +10,6 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 5Gi
+      storage: 1Gi
   storageClassName: {{ .Values.global.datacenter.storageClassName }}
   volumeMode: Filesystem
